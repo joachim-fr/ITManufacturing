@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Unoshop - Demande de devis</title>
+        <title>Intesio - Request a Quote</title>
         <link rel="stylesheet" href="Style/DA_main.css">
         <link rel="stylesheet" href="Style/Order.css">
         <script src="js/jquery-3.4.1.min.js"></script>
@@ -12,77 +12,74 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/vnd.icon" href="Images/Sans_titre-removebg-preview.ico">
+        <link rel="icon" type="image/vnd.icon" href="Images/Intesio_Icon.ico">
     </head>
     <body>
         <div class="header">
-            <a class="logo" href="index.html" style="text-decoration: none;"><img src="Images/Sans_titre-removebg-preview.png" style="max-height: 50px;"></a>
+            <a class="logo" href="index.html" style="text-decoration: none;"><img src="Images/Intesio_Logo.png" style="max-height: 50px;"></a>
             <div class="nav">
-                <a class="navitem" href="Y14.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;">Y14 <span class="viollet">PLUS</span></h4></a>
-                <a class="navitem" href="Y13g1.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y13</span> GEN 1</h4></a>
+                <a class="navitem" href="Y14.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;">Intesio <span class="viollet">Pro Max</span></h4></a>
+                <a class="navitem" href="Y13g1.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Lite</span> Version</h4></a>
             </div>  
-            <a class="abouton" href="Order.html">Demander un devis</a>  
+            <a class="abouton" href="Order.html">Request a Quote</a>  
         </div>
         <div id="phase1">
             <div class="p1">
-                <h1 class="h1h"><span class="viollet">Equipez</span> vous d'une flotte d'ordinateur Y</h1>
-                <p style="margin-top: 50px; margin-bottom: 100px;"><span class="viollet">Équipez votre établissement en quelques clics !</span> Simplifiez la digitalisation de vos classes grâce à notre formulaire en ligne.
-                    Remplissez-le en quelques minutes pour obtenir un devis personnalisé et une solution adaptée à vos besoins spécifiques.</p>
+                <h1 class="h1h"><span class="viollet">Equip</span> yourself with Intesio</h1>
+                <p style="margin-top: 50px; margin-bottom: 100px;"><span class="viollet">Choose the future of passive income!</span> Simplify your journey to earning rewards by watching ads with our online form. Fill it out in just a few minutes to receive a personalized quote tailored to your specific needs.</p>
             </div>
             <div class="form" style="margin-bottom: 100px;">
-                <h1 class="viollet" style="text-align: center; margin-top: 50px; padding-top: 20px;">Formulaire pour demande de devis</h1>
+                <h1 class="viollet" style="text-align: center; margin-top: 50px; padding-top: 20px;">Request a Quote</h1>
                 <div>
-                    <input class="text-input" type="text" id="fname" name="fname" required="True" placeholder="Nom">
-                    <input class="text-input" type="text" id="lname" name="lname" placeholder="Prénom">
-                    <input class="text-input" type="text" id="email" name="email" placeholder="Email">
-                    <input class="text-input" type="tel" id="phone" name="phone" placeholder="Téléphone">
-                    <input class="text-input" type="text" id="school" name="school" placeholder="Établissement">
-                    <input class="text-input" type="text" id="city" name="city" placeholder="Ville">
-                    <input class="text-input" type="tel" id="zip" name="zip" placeholder="Code Postal">
-                    <input class="text-input" type="text" id="country" name="country" placeholder="Pays">
+                    <input class="text-input" type="text" id="fname" name="fname" placeholder="First Name">
+                    <input class="text-input" type="text" id="lname" name="lname" placeholder="Last Name">
+                    <input class="text-input" type="email" id="email" name="email" placeholder="Email">
+                    <input class="text-input" type="tel" id="phone" name="phone" placeholder="Phone">
+                    <input class="text-input" type="text" id="device" name="device" placeholder="Preferred Version (Lite or Pro Max)">
+                    <input class="text-input" type="text" id="city" name="city" placeholder="City">
+                    <input class="text-input" type="text" id="zip" name="zip" placeholder="Postal Code">
+                    <input class="text-input" type="text" id="country" name="country" placeholder="Country">
                 </div>
-                <a class="abouton" href="#" style="margin-top: 50px; margin-bottom: 30px;">Envoyer</a>
+                <a class="abouton" href="#" id="submitButton" style="margin-top: 50px; margin-bottom: 30px;">Submit</a>
             </div>
             <div class="footer">
                 <p style="padding-top: 20px; padding-bottom: 20px;">Made with ❤️ by JL</p>
             </div>
         </div>
         <div id="phase2">
-            <video class="background-video" autoplay loop muted><source src="Vidéos/Background.mp4" type="video/mp4">
+            <video class="background-video" autoplay loop muted><source src="Videos/Background.mp4" type="video/mp4">
             </video>
             <div class="hoverlay">
-                <h1 style="color: #50fdaa;">Merci pour votre demande !</h1>
-                <p>Nous avons bien reçu votre demande de devis. 
-                    Nous vous contacterons dans les plus brefs délais pour vous proposer une solution adaptée à vos besoins.</p>
+                <h1 style="color: #50fdaa;">Thank you for your request!</h1>
+                <p>We have received your request for a quote. 
+                    Our team will contact you shortly to provide a solution tailored to your needs.</p>
             </div>
             <div class="resum" id="jtmpas" style="margin-top: 35%;">
-                <h1 style="padding-top: 30px;"><span class="viollet">Merci</span> pour votre confiance !</h1>
-                <p style="margin-right: 2.5%; margin-left: 2.5%; margin-bottom: 0;">Félicitations ! Votre demande a bien été prise en compte. Vous avez fait le choix d'équiper votre établissement
-                     avec une solution informatique de pointe. Notre équipe va désormais étudier votre projet en détail pour vous proposer
-                      une offre personnalisée. Vous bénéficierez d'un accompagnement personnalisé tout au long du processus, de la configuration de vos
-                       équipements à la formation de vos enseignants. De plus, vous aurez accès à notre plateforme en ligne pour gérer votre parc informatique et 
-                       suivre vos commandes. Nous sommes convaincus que nos solutions
-                     vont vous permettre d'optimiser l'apprentissage de vos élèves et de créer un environnement d'apprentissage dynamique et collaboratif.</p>
-                <a class="abouton" style="margin-bottom: 50px; margin-top: 50px;" id="resumbutton">Télécharger ma demande →</a>
-                <a class="abouton" style="margin-bottom: 2.5%; margin-right: 2.5%; display: block; text-align: center;" href="index.html" onclick="window.location.href='index.html'; return false;">Retour à l'accueil →</a>
+                <h1 style="padding-top: 30px;"><span class="viollet">Thank</span> you for your trust!</h1>
+                <p style="margin-right: 2.5%; margin-left: 2.5%; margin-bottom: 0;">Congratulations! Your request has been successfully submitted. You have chosen to equip yourself with Intesio, the cutting-edge solution for passive income. Our team will now review your project in detail to provide you with a personalized offer. You will receive dedicated support throughout the process, from setup to maximizing your earnings. We are confident that Intesio will help you unlock the future of effortless income.</p>
+                <a class="abouton" style="margin-bottom: 50px; margin-top: 50px;" id="resumbutton">Download My Request →</a>
+                <a class="abouton" style="margin-bottom: 2.5%; margin-right: 2.5%; display: block; text-align: center;" href="index.html" onclick="window.location.href='index.html'; return false;">Back to Home →</a>
                 <div class="footer">
                     <p style="padding-top: 20px; padding-bottom: 20px; margin-left: 0;">Made with ❤️ by JL</p>
                 </div>
             </div>
             <div class="pdf" id="pdf">
-                <p class="logo"style="text-decoration: none;"><h1 class="logo" style="margin-top: 0; color: #131921;"><img src="Images/Sans_titre-removebg-preview.png" style="max-height: 50px;"></p>
-                <p style="font-weight: bolder; font-size: 15px; margin-top: 30px;">Merci pour votre demande de devis !</p>
-                <p>Merci d'avoir soumis votre demande. Nous avons bien reçu votre formulaire et allons étudier attentivement votre projet.
-                     Un de nos conseillers vous contactera prochainement pour discuter de vos besoins spécifiques et vous présenter une offre personnalisée.</p>
-                <p style="font-weight: bolder; font-size: 15px;" class="viollet">Voici un résumé de votre demande :</p>
-                <p>Nom: <span style="font-weight: bolder;" id="nom"></span></p>
-                <p>Prénom: <span style="font-weight: bolder;" id="prenom"></span></p>
+                <p class="logo" style="text-decoration: none;">
+                    <h1 class="logo" style="margin-top: 0; color: #131921;">
+                        <img src="Images/Intesio_Logo.png" style="max-height: 50px;">
+                    </h1>
+                </p>
+                <p style="font-weight: bolder; font-size: 15px; margin-top: 30px;">Thank you for your request!</p>
+                <p>We have received your form and will carefully review your project. One of our advisors will contact you shortly to discuss your specific needs and present a personalized offer.</p>
+                <p style="font-weight: bolder; font-size: 15px;" class="viollet">Here is a summary of your request:</p>
+                <p>First Name: <span style="font-weight: bolder;" id="nom"></span></p>
+                <p>Last Name: <span style="font-weight: bolder;" id="prenom"></span></p>
                 <p>Email: <span style="font-weight: bolder;" id="mail"></span></p>
-                <p>Téléphone: <span style="font-weight: bolder;" id="tel"></span></p>
-                <p>Établissement: <span style="font-weight: bolder;" id="etab"></span></p>
-                <p>Ville: <span style="font-weight: bolder;" id="ville"></span></p>
-                <p>Code Postal: <span style="font-weight: bolder;" id="cp"></span></p>
-                <p>Pays: <span style="font-weight: bolder;" id="pays"></span></p>
+                <p>Phone: <span style="font-weight: bolder;" id="tel"></span></p>
+                <p>Preferred Version: <span style="font-weight: bolder;" id="device"></span></p>
+                <p>City: <span style="font-weight: bolder;" id="ville"></span></p>
+                <p>Postal Code: <span style="font-weight: bolder;" id="cp"></span></p>
+                <p>Country: <span style="font-weight: bolder;" id="pays"></span></p>
             </div>
         </div>
     </body>

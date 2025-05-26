@@ -1,0 +1,75 @@
+.misenavant {
+    position: relative;
+    margin-top: 165px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 1.5em;
+}
+
+.hhoverlay {
+    margin-top: 5px;
+}
+
+.ahoverlay {
+    margin-bottom: 5px;
+}
+
+.phoverlay {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.vid_gauche {
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    max-width: auto;
+}
+
+.vid_droite {
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    max-width: auto;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.t_art {
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+.t_art_droite {
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+.stitre {
+    margin-left: 2.5%;
+    margin-top: 0;
+    margin-bottom: 0 ;
+
+}
+
+.p_art {
+    margin-top: 1.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}

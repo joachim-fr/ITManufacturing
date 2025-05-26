@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unoshop - Demande de devis</title>
+        <link rel="stylesheet" href="Style/DA_main.css">
+        <link rel="stylesheet" href="Style/Order.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/html2pdf.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link href="https://db.onlinewebfonts.com/c/26c5460da831013be63f75ef7b0f81d5?family=CCMetconScaled+W00+Regular" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/vnd.icon" href="Images/Sans_titre-removebg-preview.ico">
+    </head>
+    <body>
+        <div class="header">
+            <a class="logo" href="index.html" style="text-decoration: none;"><img src="Images/Sans_titre-removebg-preview.png" style="max-height: 50px;"></a>
+            <div class="nav">
+                <a class="navitem" href="Y14.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;">Y14 <span class="viollet">PLUS</span></h4></a>
+                <a class="navitem" href="Y13g1.html" style="text-decoration: none;"><h4 class="item" style="margin-top: 0;"><span class="viollet">Y13</span> GEN 1</h4></a>
+            </div>  
+            <a class="abouton" href="Order.html">Demander un devis</a>  
+        </div>
+        <div id="phase1">
+            <div class="p1">
+                <h1 class="h1h"><span class="viollet">Equipez</span> vous d'une flotte d'ordinateur Y</h1>
+                <p style="margin-top: 50px; margin-bottom: 100px;"><span class="viollet">Équipez votre établissement en quelques clics !</span> Simplifiez la digitalisation de vos classes grâce à notre formulaire en ligne.
+                    Remplissez-le en quelques minutes pour obtenir un devis personnalisé et une solution adaptée à vos besoins spécifiques.</p>
+            </div>
+            <div class="form" style="margin-bottom: 100px;">
+                <h1 class="viollet" style="text-align: center; margin-top: 50px; padding-top: 20px;">Formulaire pour demande de devis</h1>
+                <div>
+                    <input class="text-input" type="text" id="fname" name="fname" required="True" placeholder="Nom">
+                    <input class="text-input" type="text" id="lname" name="lname" placeholder="Prénom">
+                    <input class="text-input" type="text" id="email" name="email" placeholder="Email">
+                    <input class="text-input" type="tel" id="phone" name="phone" placeholder="Téléphone">
+                    <input class="text-input" type="text" id="school" name="school" placeholder="Établissement">
+                    <input class="text-input" type="text" id="city" name="city" placeholder="Ville">
+                    <input class="text-input" type="tel" id="zip" name="zip" placeholder="Code Postal">
+                    <input class="text-input" type="text" id="country" name="country" placeholder="Pays">
+                </div>
+                <a class="abouton" href="#" style="margin-top: 50px; margin-bottom: 30px;">Envoyer</a>
+            </div>
+            <div class="footer">
+                <p style="padding-top: 20px; padding-bottom: 20px;">Made with ❤️ by JL</p>
+            </div>
+        </div>
+        <div id="phase2">
+            <video class="background-video" autoplay loop muted><source src="Vidéos/Background.mp4" type="video/mp4">
+            </video>
+            <div class="hoverlay">
+                <h1 style="color: #50fdaa;">Merci pour votre demande !</h1>
+                <p>Nous avons bien reçu votre demande de devis. 
+                    Nous vous contacterons dans les plus brefs délais pour vous proposer une solution adaptée à vos besoins.</p>
+            </div>
+            <div class="resum" id="jtmpas" style="margin-top: 35%;">
+                <h1 style="padding-top: 30px;"><span class="viollet">Merci</span> pour votre confiance !</h1>
+                <p style="margin-right: 2.5%; margin-left: 2.5%; margin-bottom: 0;">Félicitations ! Votre demande a bien été prise en compte. Vous avez fait le choix d'équiper votre établissement
+                     avec une solution informatique de pointe. Notre équipe va désormais étudier votre projet en détail pour vous proposer
+                      une offre personnalisée. Vous bénéficierez d'un accompagnement personnalisé tout au long du processus, de la configuration de vos
+                       équipements à la formation de vos enseignants. De plus, vous aurez accès à notre plateforme en ligne pour gérer votre parc informatique et 
+                       suivre vos commandes. Nous sommes convaincus que nos solutions
+                     vont vous permettre d'optimiser l'apprentissage de vos élèves et de créer un environnement d'apprentissage dynamique et collaboratif.</p>
+                <a class="abouton" style="margin-bottom: 50px; margin-top: 50px;" id="resumbutton">Télécharger ma demande →</a>
+                <a class="abouton" style="margin-bottom: 2.5%; margin-right: 2.5%; display: block; text-align: center;" href="index.html" onclick="window.location.href='index.html'; return false;">Retour à l'accueil →</a>
+                <div class="footer">
+                    <p style="padding-top: 20px; padding-bottom: 20px; margin-left: 0;">Made with ❤️ by JL</p>
+                </div>
+            </div>
+            <div class="pdf" id="pdf">
+                <p class="logo"style="text-decoration: none;"><h1 class="logo" style="margin-top: 0; color: #131921;"><img src="Images/Sans_titre-removebg-preview.png" style="max-height: 50px;"></p>
+                <p style="font-weight: bolder; font-size: 15px; margin-top: 30px;">Merci pour votre demande de devis !</p>
+                <p>Merci d'avoir soumis votre demande. Nous avons bien reçu votre formulaire et allons étudier attentivement votre projet.
+                     Un de nos conseillers vous contactera prochainement pour discuter de vos besoins spécifiques et vous présenter une offre personnalisée.</p>
+                <p style="font-weight: bolder; font-size: 15px;" class="viollet">Voici un résumé de votre demande :</p>
+                <p>Nom: <span style="font-weight: bolder;" id="nom"></span></p>
+                <p>Prénom: <span style="font-weight: bolder;" id="prenom"></span></p>
+                <p>Email: <span style="font-weight: bolder;" id="mail"></span></p>
+                <p>Téléphone: <span style="font-weight: bolder;" id="tel"></span></p>
+                <p>Établissement: <span style="font-weight: bolder;" id="etab"></span></p>
+                <p>Ville: <span style="font-weight: bolder;" id="ville"></span></p>
+                <p>Code Postal: <span style="font-weight: bolder;" id="cp"></span></p>
+                <p>Pays: <span style="font-weight: bolder;" id="pays"></span></p>
+            </div>
+        </div>
+    </body>
+    <script src="js/Order.js"></script>
+</html>
